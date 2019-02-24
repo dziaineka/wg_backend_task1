@@ -49,6 +49,7 @@ def main():
         amount = count(cat_color)
         write_color_info(cat_color, amount[0])
 
+
 if __name__ == "__main__":
     db_connection = psycopg2.connect(host="postgreDB",
                                      database="wg_forge_db",
